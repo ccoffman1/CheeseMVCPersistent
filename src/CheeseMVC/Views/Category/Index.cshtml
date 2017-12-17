@@ -9,8 +9,10 @@
 @foreach(var category in Model)
 {
     <ul>
-        <li>@category.name</li>
+        <li>@category.Name</li>
     </ul>
 
 }
+
+    <p><a asp-controller="Category" asp-action="Add">Add Category</a></p>
 
